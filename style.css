@@ -58,5 +58,14 @@ h1{
 form{
   max-width: 600px;
   margin: auto;
+<<<<<<< HEAD
   margin-top: 10 px;
+=======
+
+}
+
+html{
+  margin-top: 10 px;
+
+>>>>>>> e70c7b3e5cb1bc8ae8ecc2b301aa97be6924650c
 }
