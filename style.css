@@ -48,3 +48,9 @@ h1{
   margin: 0 auto;
   color: orange;
 }
+
+form{
+  max-width: 600px;
+  margin: 0 auto;
+
+}
