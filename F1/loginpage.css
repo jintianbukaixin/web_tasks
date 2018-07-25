@@ -1,0 +1,40 @@
+#loginBox{
+
+    background-color:pink;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+
+.form-group {
+    position: relative;
+    font-size: 15px;
+}  
+
+.form-group .form-label {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    transition: 0.3s;
+}
+
+.form-group .form-control {
+    width: 100%;
+    position: relative;
+    height: 35px;
+    background: none;
+    border: none;
+    padding: 5px 0;
+    transition: 0.3s;
+    border-bottom: 1px solid black;
+}
+
+.form-group .form-control:focus + .form-label, .form-group .form-control:valid + .form-label {
+    font-size: 10px;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+  
