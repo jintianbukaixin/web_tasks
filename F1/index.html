@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Practice JQuery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class = "container-fluid">
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-4 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
+                        <div class="container-fluid" id = "system">
+                            <h1>学生管理系统</h1>
+                            <p>若不输入学号默认输入学号为0，功能：添加学生（姓名/性别/学号/年级/专业）输入学号搜索学生 通过学号删除学生 通过学号修改学生信息 使用localStorage保存学生信息
+                            </p>
+
+                            <table id="newTable">
+                            </table>
+                            <!-- <form>
+                                Name:<input type="text" name="name" id="name">
+                                Sex:<input type="text" name="sex" id="sex">
+                                Year:<input type="text" name="year" id = "year">
+                                Major:<input type="text" name="major"id="major">
+                                <input type="submit" name="submit" onclick="getFormData(1)">
+                                <input type="button" name="submit" value="加入" onclick="getFormData(1)">
+                            </form> -->
+                            <form class="form-inline" >
+                                <div class="form-group">
+                                <label for="name">姓名</label>
+                                <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                <label for="sex">性别</label>
+                                <input type="text" class="form-control" id="sex">
+                                </div>
+                                <div class="form-group">
+                                    <label for="year">年级</label>
+                                    <input type="text" class="form-control" id="year">
+                                </div>
+                                <div class="form-group">
+                                    <label for="major">专业</label>
+                                    <input type="text" class="form-control" id="major">
+                                </div>
+                                <div class="form-group">
+                                    <label for="id">学号</label>
+                                    <input type="text" class="form-control" id="id">
+                                </div>
+                                <input type="button" name="submit" value="加入" onclick="getFormData(1)">
+                                <input type="button" name="submit" value="删除" onclick="getFormData(2)">
+                                <input type="button" name="submit" value="修改" onclick="getFormData(3)">
+                                <input type="button" name="submit" value="查找" onclick="getFormData(4)">
+                                <script src="main.js"></script>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+       
+    </body>
+</html>

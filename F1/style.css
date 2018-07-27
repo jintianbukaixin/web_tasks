@@ -1,0 +1,22 @@
+#system{
+    margin-top: 20px;
+    background-color:pink;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+table{
+    margin:auto;
+    margin-top: 5px;
+    border: 1px solid;
+
+}
+
+html{
+    background-color: bisque;
+}
+
+input{
+    background-color: rgba(229, 190, 195, 0.623);
+}
