@@ -1,0 +1,41 @@
+.container-fluid{
+    margin-top: 40px;
+}
+
+.p {
+    color: brown;
+}
+
+.giao_img{
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+    position:relative;
+    top:0px;
+
+}
+.row{
+    height: 430px;
+
+}
+
+#img_container{
+    height:415px;
+    width:400px;
+    overflow: hidden;
+}
+
+.btn {
+    float: left;
+    position: relative;
+    border-radius: 180px;
+    background-color: pink;
+    width: 60px;
+    height: 10px;
+    margin-left: 10px;
+
+}
+
+
+
+
